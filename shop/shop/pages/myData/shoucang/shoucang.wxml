@@ -1,0 +1,9 @@
+<!--pages/myData/shoucang/shoucang.wxml-->
+<view class="box">
+  <view class="box-top">
+    <image class="a-left" src="/images/image-myData/17.png"></image>
+    <view class="text">我的收藏</view>
+  </view>
+</view>
+<image src="/images/image-myData/14.png"></image>
+<view class="one">您没有收藏记录</view>

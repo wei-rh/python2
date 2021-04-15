@@ -1,0 +1,10 @@
+<!--pages/myData/daijinquan/daijinquan.wxml-->
+<view class="box">
+  <view class="box-top">
+    <image class="a-left" src="/images/image-myData/17.png"></image>
+    <view class="text">我的代金券</view>
+  </view>
+</view>
+<image src="/images/image-myData/16.png"></image>
+<view class="one">您没有代金券记录</view>
+

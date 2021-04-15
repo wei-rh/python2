@@ -1,0 +1,129 @@
+<!--pages/myData/myData.wxml-->
+<view class="member">
+  <view class="sss">
+    <image src="/images/image-myData/1.png" class="shezhi" bindtap="bindmyData1"></image>
+  </view>
+  <view class="head">
+    <view class="image-1">
+      <image src="/images/image-myData/1.jpg"></image>
+    </view>
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击登录 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="headimg" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    </block>
+    <view class="image-2">
+      <image src="/images/image-myData/2.jpg"></image>
+    </view>
+  </view>
+  <view class="name">{{userInfo.nickName}}</view>
+</view>
+<!-- 手机号 -->
+<view class="phone">
+  <view class="image-phone">
+    <image class="image-phone-1" src="/images/image-myData/4.png"></image>
+    <view class="text-phone">绑定手机号</view>
+    <image class="image-phone-2" src="/images/image-myData/5.png"></image>
+  </view>
+  <view class="text-phone2">如果您用手机号注册会员或您想通过微信外购物请绑定您的手机号码</view>
+</view>
+<!-- tool -->
+<view class="tool">
+  <view class="common" bindtap="bindmyData2">
+    <view class="img">
+      <image src="/images/image-myData/2.png" class="tool-img" mode="aspectFit"></image>
+    </view>
+    <view class="desc">
+      我的收藏
+    </view>
+  </view>
+  <view class="common" bindtap="bindmyData3">
+    <view class="img">
+      <image src="/images/image-myData/3.png" class="tool-img" mode="aspectFit"></image>
+    </view>
+    <view class="desc">
+      我的地址
+    </view>
+  </view>
+</view>
+<!--我的资产-->
+<view class="text-tool">我的资产
+  <view class="divLine"></view>
+</view>
+<view class="tools">
+  <view class="common" bindtap="bindmyData4">
+    <view class="img">
+      <image src="/images/image-myData/6.png" class="tool-img" mode="aspectFit"></image>
+    </view>
+    <view class="desc">
+      我的红包
+    </view>
+  </view>
+  <view class="common" bindtap="bindmyData5">
+    <view class="img">
+      <image src="/images/image-myData/7.png" class="tool-img" mode="aspectFit"></image>
+    </view>
+    <view class="desc">
+      我的代金券
+    </view>
+  </view>
+  <view class="common" bindtap="bindmyData6">
+    <view class="img">
+      <image src="/images/image-myData/8.png" class="tool-img" mode="aspectFit"></image>
+    </view>
+    <view class="desc">
+      我的会员卡
+    </view>
+  </view>
+</view>
+<!-- 我的服务 -->
+<view class="text-tool">我的服务
+  <view class="divLine"></view>
+</view>
+<view class="tools">
+  <view class="common" bindtap="bindmyData7">
+    <view class="img">
+      <image src="/images/image-myData/9.png" class="tool-img" mode="aspectFit"></image>
+    </view>
+    <view class="desc">
+      骑手登录
+    </view>
+  </view>
+  <view class="common" bindtap="bindmyData8">
+    <view class="img">
+      <image src="/images/image-myData/10.png" class="tool-img" mode="aspectFit"></image>
+    </view>
+    <view class="desc">
+      领券中心
+    </view>
+  </view>
+  <view class="common" bindtap="bindViewTap3">
+    <view class="img">
+      <image src="/images/image-myData/11.png" class="tool-img" mode="aspectFit"></image>
+    </view>
+    <view class="desc">
+      客服中心
+    </view>
+  </view>
+</view>
+<!-- 更多推荐-->
+<view class="text-tool">更多推荐
+ <view class="divLine"></view>
+</view>
+<view class="tools">
+  <view class="common" bindtap="bindViewTap2">
+    <view class="img">
+      <image src="/images/image-myData/12.png" class="tool-img" mode="aspectFit"></image>
+    </view>
+    <view class="desc">
+      商家入驻
+    </view>
+  </view>
+  <view class="common" bindtap="bindViewTap3">
+    <view class="img">
+      <image src="/images/image-myData/13.png" class="tool-img" mode="aspectFit"></image>
+    </view>
+    <view class="desc">
+      骑手入驻
+    </view>
+  </view>
+</view>

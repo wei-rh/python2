@@ -1,0 +1,15 @@
+<!--pages/myData/huiyuanziliao/huiyuanziliao.wxml-->
+<view class="boder">
+  <view class="text-tool">会员uid
+    <view class="text-id">13749198</view>
+    <view class="divLine"></view>
+  </view>
+  <view class="text-tool">手机号
+    <view class="text-id">绑定手机号</view>
+    <view class="divLine"></view>
+  </view>
+  <view class="text-tool">用户名
+    <view class="text-id">{{id}}</view>
+    <view class="divLine"></view>
+  </view>
+</view>

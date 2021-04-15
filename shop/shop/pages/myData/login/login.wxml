@@ -1,0 +1,14 @@
+<!--pages/myData/login/login.wxml-->
+<view class="container">
+  <view class="box">
+    <view class="row">
+      <image src="/images/image-myData/18.png"></image>
+      <input type="text" maxlength="11" placeholder="请输入账号" bindinput='formName'></input>
+    </view>
+    <view class="row">
+      <image src="/images/image-myData/19.png" class="code"></image>
+      <input type="text" maxlength="12" placeholder="请输入密码" bindinput='passWord'></input>
+    </view>
+  </view>
+  <view class="button" bindtap="userbtn">登录</view>
+</view>

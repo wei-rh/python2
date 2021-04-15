@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/indent/indent",
+    "pages/myData/myData",
+    "pages/run/run",
+    "pages/index/sendExpress/sendExpress",
+    "pages/index/runExpress/runExpress",
+    "pages/myData/huiyuanziliao/huiyuanziliao",
+    "pages/myData/shoucang/shoucang",
+    "pages/myData/dizhi/dizhi",
+    "pages/myData/hongbao/hongbao",
+    "pages/myData/daijinquan/daijinquan",
+    "pages/myData/huiyuanka/huiyuanka",
+    "pages/myData/lingquan/lingquan",
+    "pages/myData/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "完美商科",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-button": "/miniprogram_npm/vant-weapp/button/index",
+    "van-field": "/miniprogram_npm/vant-weapp/field/index",
+    "van-popup": "/miniprogram_npm/vant-weapp/popup/index",
+    "van-submit-bar": "/miniprogram_npm/vant-weapp/submit-bar/index",
+    "van-card": "/miniprogram_npm/vant-weapp/card/index",
+    "van-nav-bar": "/miniprogram_npm/vant-weapp/nav-bar/index",
+    "van-tab": "/miniprogram_npm/vant-weapp/tab/index",
+    "van-tabs": "/miniprogram_npm/vant-weapp/tabs/index"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#07c160",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index-image/a2.png",
+        "selectedIconPath": "images/index-image/a1.png"
+      },
+      {
+        "pagePath": "pages/run/run",
+        "text": "跑腿",
+        "iconPath": "images/index-image/d2.png",
+        "selectedIconPath": "images/index-image/d1.png"
+      },
+      {
+        "pagePath": "pages/indent/indent",
+        "text": "订单",
+        "iconPath": "images/index-image/b2.png",
+        "selectedIconPath": "images/index-image/b1.png"
+      },
+      {
+        "pagePath": "pages/myData/myData",
+        "text": "我的",
+        "iconPath": "images/index-image/c2.png",
+        "selectedIconPath": "images/index-image/c1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
